@@ -15,13 +15,13 @@ void help() {
     std::cout << "Copyright (c) 2022, Felix Eckert\nLicensed under the ISC license" << std::endl;
     std::cout << "\nUsage: license <license> <year(s)> <holder>\n" << std::endl;
     std::cout << "Included Licenses:"       << std::endl;
-    std::cout << "* The Unlicense"            << std::endl;
-    std::cout << "* The ISC License"          << std::endl;
-    std::cout << "* The MIT License"          << std::endl;
-    std::cout << "* The BSD-2-Clause License" << std::endl;
-    std::cout << "* The BSD-3-Clause License" << std::endl;
-    std::cout << "* The GPL 3.0"              << std::endl;
-    std::cout << "* The APL 2.0"              << std::endl;
+    std::cout << "* unlicense -> The Unlicense"            << std::endl;
+    std::cout << "* isc       -> The ISC License"          << std::endl;
+    std::cout << "* mit       -> The MIT License"          << std::endl;
+    std::cout << "* bsd2      -> The BSD-2-Clause License" << std::endl;
+    std::cout << "* bsd3      -> The BSD-3-Clause License" << std::endl;
+    std::cout << "* gpl       -> The GPL 3.0"              << std::endl;
+    std::cout << "* apl2      -> The APL 2.0"              << std::endl;
 }
 
 int main(int argc, char* argv[]) {
