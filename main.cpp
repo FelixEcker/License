@@ -25,7 +25,7 @@ void help() {
 }
 
 int main(int argc, char* argv[]) {
-    if (argc <= 2) {
+    if (argc <= 3) {
         if (argc == 2) {
             std::string farg(argv[1]);
             if (farg == "-h" || farg == "--help") {
